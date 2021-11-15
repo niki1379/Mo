@@ -9,11 +9,13 @@ namespace BorrowLend.Models
         string Borrower;
         string Lender;
     }
+    
     public class ExpenseType
     {
         int Id;
         string ExpenseTypeName;
     }
+    
     public class ErrorViewModel
     {
         public string RequestId { get; set; }
